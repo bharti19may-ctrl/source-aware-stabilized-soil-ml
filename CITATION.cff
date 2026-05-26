@@ -1,0 +1,7 @@
+cff-version: 1.2.0
+title: Source-aware stabilized soil ML dataset and analysis
+message: If you use this dataset or code, please cite the associated manuscript.
+authors:
+  - family-names: Bharti
+    given-names: Amend before release
+date-released: 2026-05-26

@@ -1,0 +1,9 @@
+dataset,label,validation,model,rows,sources,classes,balanced_accuracy,accuracy,weighted_f1
+CBR_multiclass,cbr_class,group_by_source_3fold,HGB,485,3,4,0.2376925355450237,0.33608247422680415,0.2656962817097185
+CBR_multiclass_kfold,cbr_class,stratified_kfold_5,ExtraTrees,485,3,4,0.7440022696694586,0.7958762886597938,0.8084364590167675
+CBR_pass_8_binary,cbr_pass_8,group_by_source_3fold,RF,485,3,2,0.5297249120778532,0.6948453608247422,0.6810944766289032
+CBR_pass_8_binary_kfold,cbr_pass_8,stratified_kfold_5,ExtraTrees,485,3,2,0.9432119285060462,0.931958762886598,0.9342257753953461
+UCS_high_binary,ucs_high_binary,group_by_source_5fold,ExtraTrees,1728,6,2,0.64005439005439,0.6226851851851852,0.6083889239666547
+UCS_high_binary_kfold,ucs_high_binary,stratified_kfold_5,RF,1728,6,2,0.9335178710178711,0.9334490740740741,0.9334818753976047
+UCS_multiclass,ucs_class,group_by_source_5fold,RF,1728,6,4,0.34230233989727243,0.3431712962962963,0.33504228683618437
+UCS_multiclass_kfold,ucs_class,stratified_kfold_5,HGB,1728,6,4,0.807230202987609,0.8142361111111112,0.8132346427120888
