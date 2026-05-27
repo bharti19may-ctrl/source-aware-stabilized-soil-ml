@@ -1,0 +1,403 @@
+{
+  "index_name": "06c4d4ca-8699-42ce-b781-01a60795fbf4",
+  "title": "State/UTs-wise Macro Nutrients & Organic Carbon Status Based on Soil Health Card distributed Cycle -II during 2017-18 and 2018-19",
+  "desc": "State/UTs-wise Macro Nutrients & Organic Carbon Status Based on Soil Health Card distributed Cycle -II during 2017-18 and 2018-19",
+  "org_type": "Central",
+  "org": [
+    "Rajya Sabha"
+  ],
+  "sector": [
+    "All"
+  ],
+  "source": "data.gov.in",
+  "catalog_uuid": "65b21f96-6c7a-4410-9f5f-d8f10a79d842",
+  "visualizable": "1",
+  "active": "1",
+  "created": 1673537775,
+  "updated": 1673583825,
+  "created_date": "2023-01-12T16:36:15Z",
+  "updated_date": "2023-01-13T09:53:45Z",
+  "external_ws": 0,
+  "external_ws_url": "",
+  "target_bucket": {
+    "index": "api",
+    "type": "65b21f96-6c7a-4410-9f5f-d8f10a79d842",
+    "field": "06c4d4ca-8699-42ce-b781-01a60795fbf4"
+  },
+  "field": [
+    {
+      "id": "sl__no_",
+      "name": "Sl. No.",
+      "type": "keyword"
+    },
+    {
+      "id": "state_ut",
+      "name": "State/UT",
+      "type": "keyword"
+    },
+    {
+      "id": "nitrogen__n____vl",
+      "name": "Nitrogen (N) - VL",
+      "type": "double"
+    },
+    {
+      "id": "nitrogen__n____l",
+      "name": "Nitrogen (N) - L",
+      "type": "double"
+    },
+    {
+      "id": "nitrogen__n____m",
+      "name": "Nitrogen (N) - M",
+      "type": "double"
+    },
+    {
+      "id": "nitrogen__n____h",
+      "name": "Nitrogen (N) - H",
+      "type": "double"
+    },
+    {
+      "id": "nitrogen__n____vh",
+      "name": "Nitrogen (N) - VH",
+      "type": "double"
+    },
+    {
+      "id": "phosphorous__p____vl",
+      "name": "Phosphorous (P) - VL",
+      "type": "double"
+    },
+    {
+      "id": "phosphorous__p____l",
+      "name": "Phosphorous (P) - L",
+      "type": "double"
+    },
+    {
+      "id": "phosphorous__p____m",
+      "name": "Phosphorous (P) - M",
+      "type": "double"
+    },
+    {
+      "id": "phosphorous__p____h",
+      "name": "Phosphorous (P) - H",
+      "type": "double"
+    },
+    {
+      "id": "phosphorous__p____vh",
+      "name": "Phosphorous (P) - VH",
+      "type": "double"
+    },
+    {
+      "id": "potassium__k____vl",
+      "name": "Potassium (K) - VL",
+      "type": "double"
+    },
+    {
+      "id": "potassium__k____l",
+      "name": "Potassium (K) - L",
+      "type": "double"
+    },
+    {
+      "id": "potassium__k____m",
+      "name": "Potassium (K) - M",
+      "type": "double"
+    },
+    {
+      "id": "potassium__k____h",
+      "name": "Potassium (K) - H",
+      "type": "double"
+    },
+    {
+      "id": "potassium__k____vh",
+      "name": "Potassium (K) - VH",
+      "type": "double"
+    },
+    {
+      "id": "organic_carbon__oc____vl",
+      "name": "Organic Carbon (OC) - VL",
+      "type": "double"
+    },
+    {
+      "id": "organic_carbon__oc____l",
+      "name": "Organic Carbon (OC) - L",
+      "type": "double"
+    },
+    {
+      "id": "organic_carbon__oc____m",
+      "name": "Organic Carbon (OC) - M",
+      "type": "double"
+    },
+    {
+      "id": "organic_carbon__oc____h",
+      "name": "Organic Carbon (OC) - H",
+      "type": "double"
+    },
+    {
+      "id": "organic_carbon__oc____vh",
+      "name": "Organic Carbon (OC) - VH",
+      "type": "double"
+    },
+    {
+      "id": "total_no__of_samples",
+      "name": "Total No. of Samples",
+      "type": "double"
+    },
+    {
+      "id": "boron_b____sufficient",
+      "name": "Boron(B) - Sufficient",
+      "type": "double"
+    },
+    {
+      "id": "boron_b____deficient",
+      "name": "Boron(B) - Deficient",
+      "type": "double"
+    },
+    {
+      "id": "copper_cu____sufficient",
+      "name": "Copper(Cu) - Sufficient",
+      "type": "double"
+    },
+    {
+      "id": "copper_cu____deficient",
+      "name": "Copper(Cu) - Deficient",
+      "type": "double"
+    },
+    {
+      "id": "iron_fe____sufficient",
+      "name": "Iron(fe) - Sufficient",
+      "type": "double"
+    },
+    {
+      "id": "iron_fe____deficient",
+      "name": "Iron(fe) - Deficient",
+      "type": "double"
+    },
+    {
+      "id": "manganese_mn____sufficient",
+      "name": "Manganese(Mn) - Sufficient",
+      "type": "double"
+    },
+    {
+      "id": "manganese_mn____deficient",
+      "name": "Manganese(Mn) - Deficient",
+      "type": "double"
+    },
+    {
+      "id": "sulphur_s____sufficient",
+      "name": "Sulphur(S) - Sufficient",
+      "type": "double"
+    },
+    {
+      "id": "sulphur_s____deficient",
+      "name": "Sulphur(S) - Deficient",
+      "type": "double"
+    },
+    {
+      "id": "zinc_zn____sufficient",
+      "name": "Zinc(Zn) - Sufficient",
+      "type": "double"
+    },
+    {
+      "id": "zinc_zn____deficient",
+      "name": "Zinc(Zn) - Deficient",
+      "type": "double"
+    },
+    {
+      "id": "total_no__of_samples",
+      "name": "Total No. of Samples",
+      "type": "double"
+    }
+  ],
+  "message": "Resource lists",
+  "version": "2.2.0",
+  "status": "ok",
+  "total": 35,
+  "count": 5,
+  "limit": "10",
+  "offset": "30",
+  "records": [
+    {
+      "sl__no_": "31",
+      "state_ut": "Tripura",
+      "nitrogen__n____vl": 1608,
+      "nitrogen__n____l": 15884,
+      "nitrogen__n____m": 11671,
+      "nitrogen__n____h": 1267,
+      "nitrogen__n____vh": 26,
+      "phosphorous__p____vl": 1907,
+      "phosphorous__p____l": 10983,
+      "phosphorous__p____m": 14122,
+      "phosphorous__p____h": 3281,
+      "phosphorous__p____vh": 598,
+      "potassium__k____vl": 3976,
+      "potassium__k____l": 16507,
+      "potassium__k____m": 9180,
+      "potassium__k____h": 1206,
+      "potassium__k____vh": 13,
+      "organic_carbon__oc____vl": 4047,
+      "organic_carbon__oc____l": 8126,
+      "organic_carbon__oc____m": 14567,
+      "organic_carbon__oc____h": 3061,
+      "organic_carbon__oc____vh": 1102,
+      "total_no__of_samples": 30967,
+      "boron_b____sufficient": 24691,
+      "boron_b____deficient": 5516,
+      "copper_cu____sufficient": 30308,
+      "copper_cu____deficient": 448,
+      "iron_fe____sufficient": 30344,
+      "iron_fe____deficient": 437,
+      "manganese_mn____sufficient": 30244,
+      "manganese_mn____deficient": 573,
+      "sulphur_s____sufficient": 28761,
+      "sulphur_s____deficient": 1639,
+      "zinc_zn____sufficient": 24608,
+      "zinc_zn____deficient": 6246
+    },
+    {
+      "sl__no_": "32",
+      "state_ut": "Uttar Pradesh",
+      "nitrogen__n____vl": 4484086,
+      "nitrogen__n____l": 423505,
+      "nitrogen__n____m": 78771,
+      "nitrogen__n____h": 2489,
+      "nitrogen__n____vh": 5963,
+      "phosphorous__p____vl": 1431542,
+      "phosphorous__p____l": 2957863,
+      "phosphorous__p____m": 498718,
+      "phosphorous__p____h": 78896,
+      "phosphorous__p____vh": 117295,
+      "potassium__k____vl": 302024,
+      "potassium__k____l": 923591,
+      "potassium__k____m": 3695609,
+      "potassium__k____h": 150605,
+      "potassium__k____vh": 10498,
+      "organic_carbon__oc____vl": 890734,
+      "organic_carbon__oc____l": 3615792,
+      "organic_carbon__oc____m": 478096,
+      "organic_carbon__oc____h": 55035,
+      "organic_carbon__oc____vh": 44054,
+      "total_no__of_samples": 4864005,
+      "boron_b____sufficient": 2711144,
+      "boron_b____deficient": 1453818,
+      "copper_cu____sufficient": 4842704,
+      "copper_cu____deficient": 212049,
+      "iron_fe____sufficient": 3768639,
+      "iron_fe____deficient": 1291422,
+      "manganese_mn____sufficient": 4232132,
+      "manganese_mn____deficient": 787852,
+      "sulphur_s____sufficient": 3163095,
+      "sulphur_s____deficient": 1846679,
+      "zinc_zn____sufficient": 3560221,
+      "zinc_zn____deficient": 1504552
+    },
+    {
+      "sl__no_": "33",
+      "state_ut": "Uttarakhand",
+      "nitrogen__n____vl": 2924,
+      "nitrogen__n____l": 62,
+      "nitrogen__n____m": 372,
+      "nitrogen__n____h": 38,
+      "nitrogen__n____vh": 9,
+      "phosphorous__p____vl": 19596,
+      "phosphorous__p____l": 21506,
+      "phosphorous__p____m": 55016,
+      "phosphorous__p____h": 30159,
+      "phosphorous__p____vh": 14102,
+      "potassium__k____vl": 5244,
+      "potassium__k____l": 27785,
+      "potassium__k____m": 82596,
+      "potassium__k____h": 20767,
+      "potassium__k____vh": 4072,
+      "organic_carbon__oc____vl": 8721,
+      "organic_carbon__oc____l": 44770,
+      "organic_carbon__oc____m": 47981,
+      "organic_carbon__oc____h": 18227,
+      "organic_carbon__oc____vh": 19495,
+      "total_no__of_samples": 140058,
+      "boron_b____sufficient": 61244,
+      "boron_b____deficient": 65723,
+      "copper_cu____sufficient": 125247,
+      "copper_cu____deficient": 15042,
+      "iron_fe____sufficient": 117736,
+      "iron_fe____deficient": 22564,
+      "manganese_mn____sufficient": 113398,
+      "manganese_mn____deficient": 24558,
+      "sulphur_s____sufficient": 105691,
+      "sulphur_s____deficient": 34711,
+      "zinc_zn____sufficient": 113947,
+      "zinc_zn____deficient": 26472
+    },
+    {
+      "sl__no_": "34",
+      "state_ut": "West Bengal",
+      "nitrogen__n____vl": 30,
+      "nitrogen__n____l": 377,
+      "nitrogen__n____m": 727,
+      "nitrogen__n____h": 18,
+      "nitrogen__n____vh": "0",
+      "phosphorous__p____vl": 64,
+      "phosphorous__p____l": 79,
+      "phosphorous__p____m": 245,
+      "phosphorous__p____h": 159,
+      "phosphorous__p____vh": 605,
+      "potassium__k____vl": 329,
+      "potassium__k____l": 252,
+      "potassium__k____m": 447,
+      "potassium__k____h": 118,
+      "potassium__k____vh": 6,
+      "organic_carbon__oc____vl": 54,
+      "organic_carbon__oc____l": 194,
+      "organic_carbon__oc____m": 279,
+      "organic_carbon__oc____h": 312,
+      "organic_carbon__oc____vh": 313,
+      "total_no__of_samples": 1150,
+      "boron_b____sufficient": 945,
+      "boron_b____deficient": 206,
+      "copper_cu____sufficient": 1137,
+      "copper_cu____deficient": 12,
+      "iron_fe____sufficient": 1134,
+      "iron_fe____deficient": 16,
+      "manganese_mn____sufficient": 1017,
+      "manganese_mn____deficient": 128,
+      "sulphur_s____sufficient": 380,
+      "sulphur_s____deficient": 771,
+      "zinc_zn____sufficient": 1095,
+      "zinc_zn____deficient": 56
+    },
+    {
+      "sl__no_": "Total",
+      "state_ut": "Total",
+      "nitrogen__n____vl": 6822267,
+      "nitrogen__n____l": 7603206,
+      "nitrogen__n____m": 3117303,
+      "nitrogen__n____h": 329255,
+      "nitrogen__n____vh": 151198,
+      "phosphorous__p____vl": 3930215,
+      "phosphorous__p____l": 7233178,
+      "phosphorous__p____m": 7930532,
+      "phosphorous__p____h": 2673260,
+      "phosphorous__p____vh": 1435512,
+      "potassium__k____vl": 1174917,
+      "potassium__k____l": 3075588,
+      "potassium__k____m": 11949737,
+      "potassium__k____h": 5966887,
+      "potassium__k____vh": 1043144,
+      "organic_carbon__oc____vl": 3028251,
+      "organic_carbon__oc____l": 11647084,
+      "organic_carbon__oc____m": 4994532,
+      "organic_carbon__oc____h": 1878125,
+      "organic_carbon__oc____vh": 1647624,
+      "total_no__of_samples": 23313029,
+      "boron_b____sufficient": 10804899,
+      "boron_b____deficient": 7275099,
+      "copper_cu____sufficient": 21009875,
+      "copper_cu____deficient": 1147367,
+      "iron_fe____sufficient": 14620181,
+      "iron_fe____deficient": 7807797,
+      "manganese_mn____sufficient": 18575846,
+      "manganese_mn____deficient": 3660048,
+      "sulphur_s____sufficient": 15403942,
+      "sulphur_s____deficient": 6703769,
+      "zinc_zn____sufficient": 13890370,
+      "zinc_zn____deficient": 8591702
+    }
+  ]
+}

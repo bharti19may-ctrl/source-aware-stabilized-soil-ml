@@ -1,0 +1,5 @@
+source,files,use_in_study,model_role
+Zenodo 10.5281/zenodo.19242690,zenodo_19242690_UCS_clean.csv; zenodo_19242690_CBR_clean.csv,Direct UCS/CBR rows after duplicate checks against existing compiled dataset,usable laboratory data
+Data.gov.in Soil Health Card,datagov_soil_health_oc_all_offsets.csv,State/UT-level organic carbon and nutrient context only; not UCS/CBR training data,regional contextual descriptor candidate
+"GSI Bhukosh, Bhuvan, SLUSI, CRRI",metadata/*.html,Portal evidence and future data-acquisition pathway; not mechanical test data,metadata/manual download route
+NGDR and Bhukosh public GIS,download_log.csv,Automated access timed out; manual portal/API access required for raw layer export,blocked/manual

@@ -1,0 +1,1292 @@
+﻿<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><title>
+	भारतीय मृदा एवं भू-उपयोग सर्वेक्षण
+</title>
+<meta charset="utf-8" />
+<meta http-equiv="refresh" content="3600" />
+<meta name="keywords" content="SLUSI" /><meta name="description" content="भारतीय मृदा एवं भू-उपयोग सर्वेक्षण" /><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" /><link rel="Stylesheet" type="text/css" href="css/CssMain.css" /><link rel="stylesheet prefetch" href="css/slick.min.css" /><link rel="stylesheet" href="css/style.css" /><link rel="shortcut icon" href="images/pmsky.png" />
+    <script src="js/jImageSlider.js" type="text/javascript"></script>
+    
+        <script type="text/javascript">
+    function googleTranslateElementInit() {
+        new google.translate.TranslateElement({ pageLanguage: 'en', includedLanguages: 'bn,en,gu,hi,pa,ta,te,ur', layout: google.translate.TranslateElement.InlineLayout.SIMPLE }, 'google_translate_element');
+    }
+    </script>
+
+    <script type="text/javascript">
+      $(document).ready(function () {
+
+          // Reset Font Size
+          var originalFontSize = $('#bodyPanel').css('font-size');
+          //alert(originalFontSize);
+
+          $(".resetFont").click(function () {
+              $('#bodyPanel').css('font-size', originalFontSize);
+          });
+          // Increase Font Size
+          $(".increaseFont").click(function () {
+
+              var currentFontSize = $('#bodyPanel').css('font-size');
+              var currentFontSizeNum = parseFloat(currentFontSize, 10);
+              var newFontSize = currentFontSizeNum + 1;
+              $('#bodyPanel').css('font-size', newFontSize);
+              return false;
+          });
+          // Decrease Font Size
+          $(".decreaseFont").click(function () {
+
+              var originalFontSize123 = $('#bodyPanel').css('font-size');
+              var currentFontSize = $('#bodyPanel').css('font-size');
+              var currentFontSizeNum = parseFloat(currentFontSize, 10);
+              var newFontSize = currentFontSizeNum - 1;
+              if (newFontSize >= 5.0) {
+                  $('#bodyPanel').css('font-size', newFontSize);
+              }
+              return false;
+          });
+      });
+
+      function confirm_alert(node) {
+          return confirm("This is external link, Are you sure you want to continue?.");
+      }
+  </script>
+ 
+   
+       <script type="text/javascript">
+    $(function () {
+        var overlay = $('<div id="overlay"></div>');
+        overlay.show();
+        overlay.appendTo(document.body);
+        $('.popup').show();
+        $('.close').click(function () {
+            $('.popup').hide();
+            overlay.appendTo(document.body).remove();
+            return false;
+        }); $('.x').click(function () {
+            $('.popup').hide();
+            overlay.appendTo(document.body).remove();
+            return false;
+        });
+    });
+</script>
+
+<script type="text/javascript">
+  (function() {
+    var cx = '010707201516085242644:bzghmofxklu';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+window.onload = function(){
+document.getElementById('gsc-i-id1').placeholder = 'Search SLUSI website ...';
+};
+</script>
+
+<script>
+        $.fn.suga = function (options) {
+            var settings = $.extend({
+                'transitionSpeed': 3000,
+                'snap': false
+            }, options);
+
+            var $this = $(this);
+
+            // add plugin specific classes
+            $this.addClass('suga-slider-wrap');
+            $this.children('ul').addClass('suga-slider-group');
+            $this.find('li').addClass('suga-slide');
+
+            // caching $$$
+            var $slide = $('.suga-slide'),
+                      $firstEl = $('.suga-slide:first'),
+                $group = $('.suga-slider-group'),
+                $wrap = $('.suga-slider-wrap');
+
+            var slideWidth = $slide.outerWidth(),
+                  slideHeight = $('.suga-slide').height(),
+                slideCount = $slide.length,
+                totalWidth = slideWidth * slideCount;
+
+            // set width on group element
+            $group.width('100%');
+            $wrap.height('120px');
+            $wrap.wrap('<div class="suga-container"></div>');
+
+            // add first class at start
+            if (!$group.find($firstEl).hasClass("suga-first")) {
+                $group.find($firstEl).addClass("suga-first");
+            }
+
+            // lets move baby
+            var transitionSnap = function () {
+                var $firstEl = $group.find('.suga-first').html();
+
+                $group.find('.suga-first').animate({
+                    'margin-left': '-' + slideWidth + 'px'
+                }, function () {
+                    $group.append('<li class="suga-slide">' + $firstEl + '</li>');
+                    $(this).remove();
+                    $group.find('li:first').addClass("suga-first");
+
+                });
+            };
+
+            var transitionScroll = function () {
+                var $firstEl = $group.find('.suga-first').html();
+
+                $group.find('.suga-first').animate({
+                    'margin-left': '-' + slideWidth + 'px'
+                }, settings.transitionSpeed, 'linear', function () {
+                    $group.append('<li class="suga-slide">' + $firstEl + '</li>');
+                    $(this).remove();
+                    $group.find('li:first').addClass("suga-first");
+                    transitionScroll();
+                });
+            };
+
+            if (settings.snap) {
+                window.setInterval(transitionSnap, settings.transitionSpeed);
+            } else {
+                transitionScroll();
+            }
+        }
+
+        $(window).load(function () {
+            $('#logos').suga({
+                'transitionSpeed': 2000,
+                'snap': true
+            });
+        });
+
+    </script>
+    <style>
+	.centerimg {
+				  display: block;
+				  margin-left: auto;
+				  margin-right: auto;
+				  width: 50%;
+				}
+       
+.input.gsc-input {
+    border-color: #004220;
+	width:10px;  
+  }
+ .input.gsc-search-button {
+    border-color: #004220;
+    background-color: #004220;
+	width:10px;
+  }
+       
+        .demo2 li {
+            margin-bottom: 10px;
+            text-indent: 0px;
+            
+            font-size: 14px;
+            font-weight: 400;
+            text-align: inherit;
+            font-family: sans-serif;
+            line-height: 1.8em;
+        }
+
+        *, *:before, *:after {
+            box-sizing: border-box;
+        }
+
+        body {
+            background: white;
+        }
+
+        li {
+            list-style: none;
+        }
+
+        .subtypeheading {
+            background-color: #1f674b;
+            color: white;
+            font-size: 18px;
+            font-weight: 600;
+            text-transform: uppercase;
+            text-indent: 0;
+            text-align: center;
+            width: 100%;
+            padding-top: 5px;
+            height:30px;
+            margin-bottom: 1px;
+            
+        }
+
+
+     
+        .MiddleTap {
+            max-width: 80%;
+            margin: auto;
+        }
+
+        .button {
+            border: none;
+            color: white;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 20px;
+            cursor: pointer;
+            height: 50px;
+            width: 24%;
+            line-height: 50px;
+            border-radius: 10px;
+            margin: 4px;
+        }
+
+        .MIContent {
+            font-size: 14px;
+            font-weight: 400;
+            text-indent: 30px;
+            max-height: 185px;
+            text-align: inherit;
+            font-family: sans-serif;
+            line-height: 150%;
+            overflow:hidden;
+        }
+        .MiddleMain {
+    width: 98%;
+    margin: 10px auto;
+    line-height: 18px;
+    padding: 0px 5px 20px 5px;
+    max-width: 1600px;
+    box-sizing: border-box;
+}
+        .about {
+            width: 100%;
+        }
+
+        .AboutMI {
+            width: 50%;
+            padding: 0px;
+            float: left;
+        }
+
+        .Graph {
+            width: 32%;
+            padding: 0px;
+            margin: 0px;
+        }
+
+        .BeneficiaryGraph {
+            width: 100%;
+        }
+
+        .BarGraph {
+            width: 100%;
+            padding-top: 0px;
+        }
+
+          .chart
+        {
+            width:100% !important;
+            height:100% !important;
+        }
+
+        .about {
+            width: 68%;
+        }
+
+        .Wd75headingStyle {
+            width: 75%;
+            padding: 0px;
+            margin: 0px;
+            float: left;
+        }
+
+        .Wd25headingStyle {
+            width: 25%;
+            padding: 0px;
+            margin: 0px;
+            float: left;
+        }
+
+        @media only screen and (max-width: 1380px) {
+             .Wd75headingStyle {
+            width: 70%;
+            padding: 0px;
+            margin: 0px;
+            float: left;
+        }
+              .Wd25headingStyle {
+            width: 30%;
+            padding: 0px;
+            margin: 0px;
+            float: left;
+        }
+            [class=MiddleTap] {
+                max-width: 100%;
+                margin: auto;
+            }
+             .Graph {
+                width: 35%;
+            }
+             .about
+             {
+                 width:65%;
+                 max-height:690px;
+                 overflow:hidden;
+             }
+             .Links{
+                 overflow:visible;
+             }
+        }
+
+        @media only screen and (max-width: 1100px) {
+            .Graph {
+                width: 100%;
+            }
+
+            
+            .BeneficiaryGraph {
+                width: 50%;
+                margin: auto;
+            }
+
+            .BarGraph {
+                width: 100%;
+                margin: auto;
+                padding-top: 10px;
+            }
+
+            .about {
+                width: 100%;
+                padding: 0px;
+            }
+
+            .Wd75headingStyle {
+                width: 65%;
+                padding: 0px;
+                margin: 0px;
+                float: left;
+            }
+
+            .Wd25headingStyle {
+                width: 35%;
+                padding: 0px;
+                margin: 0px;
+                float: left;
+            }
+        }
+
+        @media only screen and (max-width: 1100px) {
+            .Wd25headingStyle {
+                width: 100%;
+                padding: 0px;
+            }
+
+            .Wd75headingStyle {
+                width: 100%;
+                padding: 0px;
+                margin: 0px;
+                float: left;
+            }
+
+            .MIContent {
+                height: auto;
+            }
+              
+
+            [class=button] {
+                width: 48.5%;
+            }
+        }
+          @media only screen and (max-width: 673px) {
+                       
+
+            [class=button] {
+                width: 47.5%;
+            }
+             [class=MiddleTap] {
+                width: 100%;
+                
+            }
+        }
+      
+        @media only screen and (max-width: 480px) {
+            .Graph {
+                width: 100%;
+            }
+
+            .BeneficiaryGraph {
+                width: 100%;
+                margin: auto;
+            }
+
+            .BarGraph {
+                width: 100%;
+                margin: auto;
+                padding-top: 10px;
+            }
+
+            .about {
+                width: 100%;
+                padding: 0px;
+            }
+
+            .Wd75headingStyle {
+                width: 100%;
+            }
+
+            .Wd25headingStyle {
+                width: 100%;
+                padding: 0px;
+            }
+
+            .AboutMI {
+                width: 100%;
+            }
+
+            .MIContent {
+                height: auto;
+            }
+
+            [class=MiddleTap] {
+                max-width: 100%;
+                margin: auto;
+            }
+
+            [class=button] {
+                width: 100%;
+            }
+        }
+
+       .auto-style5 {
+	color: #FFFFFF;
+}
+.auto-style7 {
+	color: #800080;
+}
+.auto-style8 {
+	color: #FF0000;
+}
+.auto-style9 {
+	width: 100%;
+	float: left;
+	color: black;
+	min-height: 210px;
+	height: 90%;
+	overflow-x: visible;
+	overflow-y: visible;
+	border-top: 2px solid #1F674B;
+	margin-right: 0;
+	padding: 10px;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	background: #eaf1e3;
+	box-shadow: 2px 2px 2px grey;
+}
+.auto-style10 {
+	font-size: small;
+}
+
+       .auto-style11 {
+	font-size: x-small;
+}
+.auto-style12 {
+	background-color: #1f674b;
+	color: white;
+	font-size: small;
+	font-weight: 600;
+	text-transform: uppercase;
+	text-indent: 0;
+	text-align: center;
+	width: 100%;
+	padding-top: 5px;
+	height: 30px;
+	margin-bottom: 1px;
+}
+
+ 
+       .auto-style13 {
+	margin-left: 52;
+}
+
+ 
+       </style>
+
+    
+</head>
+<body>
+
+    <form method="post" action="" id="form1">
+<div class="aspNetHidden">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKLTIyNTg2Njg5OQ9kFgJmD2QWAgIDD2QWBgIBD2QWBAIHDxYCHglpbm5lcmh0bWwFGEFyZWEgQ292ZXJlZCAoMjAxNy0yMDE4KWQCCQ8PFgIeBFRleHQFyAE8Yj5NaWNybyBJcnJpZ2F0aW9uPC9iPjxCci8+RHJpcCA6IDQuNTggTGFraCBIYTxici8+U3ByaW5rbGVyIDogMy44MSBMYWtoIEhhPGJyLz5Ub3RhbCA6IDguNDAgTGFraCBIYTxici8+PGI+T3RoZXIgSW50ZXJ2ZW50aW9uczwvYj48YnIvPlBvdGVudGlhbCBDcmVhdGVkIEZvciBQcm90ZWN0aXZlIElycmlnYXRpb24gOiAwLjc3IExha2ggSGE8YnIvPmRkAgMPFgIfAAUbTGFzdCBVcGRhdGUgb246IDA0IE1heSAyMDE3ZAIFDxYCHwAFFlZpc2l0b3IgQ291bnQgOiA1MTU0NzBkZI3Y0Cumt9BYWXCDuyoLULHd4aRQR2V+Q1NXKmQ3oxGe" />
+</div>
+
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="CA0B0334" />
+</div>
+           
+
+           <div class="formDesign" >
+  <div class="bodyheaderPanel" >
+             <!--top strip start here -->
+      <div class="TopmainHeadercontainer" >
+    <div id="top_menu_container" >
+<div id="top_menu" >        
+
+           
+        </div>        
+    
+
+</div>
+
+  <div style="text-align: right;background-color:#13725E;padding:7px;">
+  <div style="display:inline-block"><a href="mwanew.html" target="_out"><font color="yellow"><b> भारत का डिजिटल माइक्रो वाटरशेड एटलस</b></font></a></div>
+  <div style="display:inline-block"><font color="white">| </font></div>
+  <div style="display:inline-block"><a href="srm/Aboutsrm.html" target="_out"><font color="yellow"> मृदा संसाधन मानचित्रण</font></a></div>
+  <div style="display:inline-block"><font color="white">| </font></div>
+  <div style="display:inline-block"><a href="dss/aboutdss.html" target="_out" ><font color="yellow">विस्तृत मृदा सर्वेक्षण</font></a></div>
+   <div style="display:inline-block">|</div>
+<div style="display:inline-block"><a href="#" target="_out" ><font color="yellow"> पटल पाठक अभिगम </font></a></div>
+
+</div>
+
+   <div class="clearfix"> </div>
+    </div>
+          </div>
+    <!--top strip end here -->
+  <div id="Bannerheader" >
+          <!--header panel start here -->
+    <div class="bgHeaderPanel">
+        <div class="headerPanel" >
+            <a href="https://slusi.da.gov.in" title="SLUSI" style="text-align:center">
+                <img src="images/slusilogoHindi.jpg" alt="Soil and Land Use Survey of India " /></a> </div>
+         
+         
+    </div>
+
+    <!--header panel end here -->
+
+            
+  </div>
+   
+    <!--body panel start here -->
+      <div class="clearfix"> </div>
+            <div id="mainHeader" class="container" style="background-color:#1f674b; height:37px" >
+
+                <div class="toggleNav">
+                 <a href="javascript:void(0);" id="navBar" style="font-size:15px;" onclick="myFunction()"><img src="../images/whitemenu.png" width="30" height="28" /></a>
+                </div>
+                
+                <div style="width:1120px; margin:auto;">
+                 <ul id="nav" class="navHide" >
+                <li><a target="_self" href="https://slusi.da.gov.in" class="NavFirst" ><img src="images/home1.png"  alt="H"/></a></li>
+                <li><a href="#s1"><B>हमारे बारे में</B></a>
+                    <span id="s1"></span>
+                    <ul class="subs">
+
+                     <li><a href="aboutslusi.html" target="_blank">हमारे बारे में</a></li>
+                      <li><a href="mandate.html" target="_blank">अधिदेश</a></li>
+                      <li><a href="organization_chart_SLUSI.pdf" target="_blank">संगठनात्मक रेखाचित्र</a></li>
+                      <li><a href="facilities.html" target="_blank">सुविधाएं</a></li>
+                      <li><a href="jurisdiction.html" target="_blank">अधिकार - क्षेत्र</a></li>
+                      <li><a href="achievements.html" target="_blank">उपलब्धियां</a></li>
+                    </ul>
+                </li>
+                         
+
+                <li><a href="#s1"><B>केन्द्र</B></a>
+                    <span id="s1"></span>
+                    <ul class="subs">
+                      <li><a href="aboutslusi.html" >नई दिल्ली (मुख्यालय)</a></li>
+                     <li><a href="Ahmedabad_Centre.pdf" target="_out">अहमदाबाद</a></li>
+                      <li><a href="Bengaluru_Centre.pdf" target="_out">बेंगलुरु</a></li>
+                      <li><a href="slusi_Hyderabad_Centre.pdf" target="_out">हैदराबाद</a></li>
+                       <li><a href="kolkata_centre.pdf" target="_out">कोलकाता</a></li>
+                      <li><a href="Nagpur_centre.pdf" target="_out">नागपुर</a></li>
+		      <li><a href="NOIDA_centre.pdf" target="_out">नोएडा</a></li>
+                      <li><a href="Ranchi_centre.pdf">रांची</a></li>
+                    </ul>
+                </li>
+
+                  
+                  <li style="width:auto;"><a href="#s2" ><B>सर्वेक्षण</B></a>
+                     <span id="s2"></span>
+                    <ul class="subs">
+                     <li><a href="dss/aboutdss.html" target="_blank"  >विस्तृत मृदा सर्वेक्षण </a></li>
+                      <li><a href="srm/Aboutsrm.html" target="_blank" > मृदा संसाधन मानचित्रण </a></li>
+                      <li><a href="rrs/aboutrrs.html" target="_blank"> तीव्र प्राथमिक सर्वेक्षण </a></li>
+                      <li><a href="ldm/aboutldm.html" target="_blank"> भूमि क्षरण मानचित्रण </a></li>
+                      <li><a href="#" target="_blank"><b><u>अभिलेख</u></b></a></li>
+                      <li><a href="archive/archive.html " target="_blank" >प्राथमिक सर्वेक्षण</a></li>
+                     <li><a href="archive/archive.html " target="_blank"  >मृदा एवं भूमि उपयोग सूची, संभावना, समस्या और आवश्यक उपचार </a></li>
+                      <li><a href="archive/archive.html " target="_blank" >मृदा संसाधन</a></li>
+                        <li><a href="#" target="_blank"><b><u> एटलस</u></b></a></li>
+<li><a href="#" target="_blank" > भारत का वाटरशेड एटलस </a></li>
+ <li><a href="mwanew.html" target="_blank" > भारत का डिजिटल माइक्रो वाटरशेड एटलस </a></li>
+			</ul>
+                </li>
+                           
+                  <li  style="width:auto;"><a href="#s3" ><B>प्रकाशन</B></a>
+                  <span id="s3"></span>
+                    <ul class="subs">
+                       <li><a href="dss/searchDSS.html" target="_blank" >विस्तृत मृदा सर्वेक्षण </a></li>
+                      <li><a href="srm/searchsrm.html" target="_blank" >मृदा संसाधन मानचित्रण </a></li>
+                      <li><a href="rrs/searchrrs.html" target="_blank">तीव्र प्राथमिक सर्वेक्षण</a></li>
+                      <li><a href="ldm/aboutldm.html" target="_blank">भूमि क्षरण मानचित्रण</a></li>
+                    <li><a href="#" target="_blank" > भारत का वाटरशेड एटलस </a></li>
+    <li><a href="mwanew.html" target="_blank" > भारत का डिजिटल माइक्रो वाटरशेड एटलस </a></li>
+                     <li><a href="annual_reports.html" target="_blank"> वार्षिक प्रतिवेदन </a></li>
+                      <li><a href="#" target="_blank"> बुलेटिन</a></li>
+                      <li><a href="Brochure.pdf" target="_blank"> विवरणिका</a></li>
+					  <li><a href="अवनि_धारा.pdf" target="_blank"> हिन्दी पत्रिका</a></li>
+					  <li><a href="RRS_Tamil_Nadu.pdf" target="_blank"> तीव्र प्राथमिक सर्वेक्षण डेटाबेस:  तमिलनाडु</a></li>
+                      <li><a href="UK_Compendium_SRM.pdf" target="_blank"> सतत भूमि प्रबंधन के लिए मृदा संसाधन सूचना संग्रह: उत्तराखंड</a></li>
+					  <li><a href="Morena_Preliminary_Report.pdf" target="_blank"> तिलहन फार्म मुरैना की स्थापना हेतु सीमांकन एवं प्रारंभिक मृदा सर्वेक्षण रिपोर्ट</a></li>
+                    </ul>
+                </li>
+				<li style="width:auto;"><a target="_self" href="citizen_charter.pdf"><B>नागरिक अधिकार-पत्र</B></a></li>
+
+               
+   <li style="width:auto;"><a target="_self"  href="rti.pdf"><B>सूचना का अधिकार </B></a></li>
+    <li style="width:auto;"><a target="_self"  href="tenders/tenders.html"><B>निविदा</B></a></li>
+                <li style="width:auto;"><a target="_self" href="vacancy/vacancies.html"><B>रिक्तियां</B></a></li>
+                <li style="width:auto;"><a target="_self" href="contactus.html"><B>संपर्क सूत्र</B></a></li>
+
+                  <li><a target="_out" href="index_English.html" >
+				  <strong>English</strong></a></li>
+                    
+              </ul>
+                    </div>
+           </div>
+                <script>
+                    function myFunction() {
+                        $("#nav").toggleClass("navHide");
+                    }
+</script>
+               
+              <div class="clearfix"> </div>
+                <div style="border-bottom: 3px solid #ffffff"></div>
+                
+					
+       			 <!-- control arrows -->
+				<div class="prev">
+					<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+				</div>
+				<div class="next">
+					<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+				</div>
+				
+      </div>
+    </div>
+  
+             
+                
+               <hr />
+                
+         
+       
+      <script type="text/javascript">
+<!--
+    var MenuBar1 = new Spry.Widget.MenuBar("PMKSY_Menu", { imgDown: "SpryAssets/SpryMenuBarDownHover.gif", imgRight: "SpryAssets/SpryMenuBarRightHover.gif" });
+    //-->
+    </script>
+            
+       <div id="bodyDiv" class="bodyMain" >
+         
+             
+   
+
+    <div class="container" style="background-color:white">
+                <div class="row">
+      <div class="col-md-12 heroSlider-fixed">
+        <div class="overlay">
+      </div>
+         <!-- Slider -->
+        <div class="slider responsive">
+		<div>
+			 		   <img src="images/NSMP_040226.JPG" alt="NSMP" style="height: 400px; Width:100%"/>
+              
+                 </div>
+		<div>
+			 		   <img src="images/NSMP_040226_2.JPG" alt="NSMP" style="height: 400px; Width:100%"/>
+              
+                 </div>
+		<div>
+			 		   <img src="images/NSMP_1.jpg" alt="NSMP" style="height: 400px; Width:100%"/>
+              
+                 </div>
+		<div>
+			 		   <img src="images/NSMP_2.jpg" alt="NSMP" style="height: 400px; Width:100%"/>
+              
+                 </div>
+				 <div>
+			 		   <img src="images/2ndMadagascar group photo.jpg" alt="2ndMadagascar group photo" style="height: 400px; Width:100%"/>
+              
+                 </div>
+						 <div>
+			 		   <img src="images/JS_Visit.jpg" alt="JS_Visit" style="height: 400px; Width:100%"/>
+              
+                 </div>
+				 <div>
+			 		   <img src="images/JS_Visit_2.jpg" alt="JS_Visit_2" style="height: 400px; Width:100%"/>
+              
+                 </div>
+		
+		
+				<div>
+			 		   <img src="images/Indo-German_meeting.jpg" alt="Indo-German_meeting" style="height: 400px; Width:100%"/>
+              
+                 </div>
+				 <div>
+			 		   <img src="images/Empowering Decision.JPG" alt="Empowering Decision.JPG" style="height: 400px; Width:100%"/>
+              
+                 </div>
+				 <div>
+			 		   <img src="images/world_soilday_2024_1.png" alt="World soil day" style="height: 400px; Width:100%"/>
+              
+                 </div>
+
+				<div>
+			 		   <img src="images/world_soilday_2024_2.png" alt="World soil day" style="height: 400px; Width:100%"/>
+              
+                 </div>
+				 <div>
+			 		   <img src="images/world_soilday_2024_3.jpg" alt="World soil day" style="height: 400px; Width:100%"/>
+              
+                 </div>
+
+
+		
+		         <div>
+			 		   <img src="images/JanJatiyaDiwas_2024.jpg" alt="JanJatiyaDiwas" style="height: 400px; Width:100%"/>
+              
+                 </div>
+
+		<div>
+			 
+			   <img src="images/Workshop.jpg" alt="Workshop" style="height: 400px; Width:100%"/>
+              
+                    </div>
+					<div>
+			 
+			   <img src="images/Workshop1.jpg" alt="Workshop1" style="height: 400px; Width:100%"/>
+              
+                    </div>
+
+		  <div>
+			 
+			   <img src="images/kolkata_training_march_24.png" alt="kolkata training" style="height: 400px; Width:100%"/>
+              
+                    </div>
+
+
+		<div>
+			 
+			   <img src="images/Annual_Meeting_2024.png" alt="Annual_Meeting_2024" style="height: 400px; Width:100%"/>
+              
+                    </div>
+					<div>
+			 
+			   <img src="images/CSSO.png" alt="CSSO" style="height: 400px; Width:100%"/>
+              
+                    </div>
+						
+						<div>
+				<img src="images/SHF_GUWAHATI.png" alt="SHF_GUWAHATI" style="height: 400px; Width:100%"/>
+              
+                    </div>
+					
+		    
+                    
+         		  <div>
+			 
+			   <img src="images/Erosion_Priority_TN_RRS.png" alt="Erosion_Priority_TN_RRS" style="height: 400px; Width:100%"/>
+              
+
+                  	  </div>
+		
+       			<div>
+			 
+			   <img src="images/Banner_RRS.png" alt="Banner_RRS" style="height: 400px; Width:100%"/>
+              
+                    </div>
+                    
+         		<div>
+			 
+			   <img src="images/UK_Erosion_Texture.png" alt="UK_Erosion_Texture" style="height: 400px; Width:100%"/>
+                     
+                     </div>
+					<div>
+						<img src="images/soil_profile.png" alt="" style="height: 400px; Width:100%"/>
+					</div>
+
+					 <div>
+						<img src="images/soillab.png" alt="" style="height: 400px; Width:100%"/>
+					</div>
+<div>
+						<img src="images/rs2.png" alt="" style="height: 400px; Width:100%"/>
+					</div>
+ 
+</div>
+                       </div>
+                    </div>
+                   
+              </div>
+    
+               
+                <script src='js/slick.min.js'></script> 
+                <script  src="js/index.js"></script>
+    <div class="MiddleMain" style="width:100%;margin:0 auto">
+        <div class="Wd75headingStyle" style="padding: 0px; float:left">  
+            <div class="Graph" style="min-height: 100px !important;float:inherit; padding-right:2px" >
+
+<div class="BarGraph" style="cursor:pointer;">
+                     <div id="ContentPlaceHolder1_Area_Covered_Header" class="subtypeheading" style="height: 38px">विस्तृत मृदा सर्वेक्षण - स्थिति</div>
+                     
+                     <div onclick="location.href='dss/DSS_Hindi.html';" style="cursor:pointer; background-color: #eaf1e3;
+                     min-height: 130px; margin-bottom:5px; width: 100%;border-bottom-right-radius:10px; border-bottom-left-radius:10px; font-size:1.3em; line-height:1.3em">    
+                    <div class='chart' style="text-indent:0px; padding:0px;border-top: 2px solid #1F674B;padding: 5px 13px 3px  5px; width: 89%;">
+                        <img src="images/dssjan.png"  style="float:right;padding-right:0px;" class="auto-style13" height="125" width="116" /><span id="ContentPlaceHolder1_Area_Covered"><strong><span class="auto-style7">मापक</span></strong><font color="green">:</font> 1:10,000 (वर्तमान में)<Br/> <B>
+						<span class="auto-style7">सर्वेक्षण अवधि</span><font color="green">:</font> </B> 1958 से <br/>
+						<span class="auto-style7"><strong>अध्ययन क्षेत्र</strong></span><font color="blue">:</font> 
+						<br>नदियों के जलग्रहण एवं वर्षा-पोषित क्षेत्र की प्राथमिकताएं<br/><span class="auto-style8"><strong>
+						सर्वेक्षित क्षेत्र</strong></span><font color="brown">:</font><span class="auto-style10"><strong> 
+						29.76 मिलियन 
+						</strong></span><span class="auto-style11"> <b> हे0 (अगस्त 2024 तक) </b></span></span>                
+
+                </div>
+         
+                     </div>
+                         
+             </div>
+           
+<div class="BarGraph" style="cursor:pointer;">
+                     <div id="ContentPlaceHolder1_Area_Covered_Header" class="subtypeheading" style="height: 37px">मृदा संसाधन मानचित्रण - स्थिति</div>
+                     
+                     <div onclick="location.href='srm/SRM_Hindi.html';" style="cursor:pointer; background-color: #eaf1e3;
+                     min-height: 140px; margin-bottom:5px; width: 100%;border-bottom-right-radius:10px; border-bottom-left-radius:10px; font-size:1.3em; line-height:1.3em; height: 137px;">    
+                    <div class='chart' style="text-indent:0px; padding:0px;border-top: 2px solid #1F674B;padding: 5px 13px 3px  5px; width: 94%;">
+                        <img src="images/srmstatus.png"  style="float:right;height:130px; padding-right:0px;" width="116" /><span id="ContentPlaceHolder1_Area_Covered"><span class="auto-style7"><strong>मापक:</strong></span> 1:50,000 <Br/> 
+						<span class="auto-style7"><strong>सर्वेक्षण अवधि</strong></span><B><font color="green">:</font> </B>
+						2003-2022<br>
+						<span class="auto-style7"><strong>आवृत जिलों की संख्या</strong></span><font color="green">:</font> 277 <br><span class="auto-style7"><strong>अध्ययन क्षेत्र:</strong></span> 
+						जिला&nbsp; <br> </span>                 
+
+                </div>
+         
+                     </div>
+                       
+             </div>
+
+                <div class="BarGraph" style="cursor:pointer;">
+                     <div id="ContentPlaceHolder1_Area_Covered_Header" class="subtypeheading" style="height: 39px">तीव्र प्राथमिक सर्वेक्षण</div>
+                     
+                     <div onclick="location.href='rrs/RRS_Hindi.html';" style="cursor:pointer; background-color: #eaf1e3;
+                     min-height: 140px; margin-bottom:5px; width: 100%;border-bottom-right-radius:10px; border-bottom-left-radius:10px; font-size:1.3em; line-height:1.3em">    
+                    <div class='chart' style="text-indent:0px; padding:0px;border-top: 2px solid #1F674B;padding: 5px 13px 3px 5px">
+                        <img src="images/rrsstatus.png"  style="float:right;height:130px; padding-right:0px;" width="119" /><span id="ContentPlaceHolder1_Area_Covered"><span class="auto-style7"><strong>मापक</strong></span><font color="green">:</font> 1:50,000 <Br/> 
+						<span class="auto-style7"><strong>सर्वेक्षण अवधि</strong></span><B><font color="green">:</font></B> 1974-2012 <br/>
+						<span class="auto-style7"><strong>अध्ययन क्षेत्र</strong></span><font color="blue">:</font> 
+						<br> नदी का जलग्रहण क्षेत्र <span class="auto-style10"> (कैचमेंट)</span><br/>
+						<span class="auto-style8"><strong>सर्वेक्षित क्षेत्र</strong></span><font color="brown">:</font><span class="auto-style10"><strong> 262.60 मिलियन हे0</strong>  
+						</span><span class="auto-style11">&nbsp;</span></span>            
+      
+                </div>
+         
+                     </div>
+          </div>
+                         
+   
+
+<div class="BarGraph" style="cursor:pointer;">
+                     <div id="ContentPlaceHolder1_Area_Covered_Header" class="subtypeheading">भूमि क्षरण मानचित्रण </div>
+                     
+                     <div onclick="location.href='ldm/LDM_Hindi.html';" style="cursor:pointer; background-color: #eaf1e3;
+                     min-height: 130px; margin-bottom:5px; width: 100%;border-bottom-right-radius:10px; border-bottom-left-radius:10px; font-size:1.3em; line-height:1.3em; height: 140px;">    
+                    <div class='chart' style="text-indent:0px; padding:0px;border-top: 5px solid #1F674B;padding: 5px 13px 3px 5px">
+                        <img src="images/ldm_status.png"  style="float:right;weight:80px;padding-right:0px;" width="117" height="121" /><span id="ContentPlaceHolder1_Area_Covered"><span class="auto-style7"><strong>मापक</strong></span><font color="green">:</font> 1:50,000 <Br/> 
+						<strong><span class="auto-style7">सर्वेक्षण अवधि</span><span class="auto-style8">:</span></strong> 1992-2007 <br/>
+						<span class="auto-style7"><strong>आवृत जिलों की संख्या</strong></span><font color="blue">:</font> 65<br/>
+						<span class="auto-style10">&nbsp;</span></span></div>
+         
+                     </div>
+             </div>
+
+                   
+                 </div>   
+  <!--middle panel start here -->
+               <div class="about" style="padding: 0px; float:right";>          
+                 <div class="subtypeheading">
+                                            डेटा विज़ुअलाइज़ेशन (मृदा सर्वेक्षण तथा मृदा स्वास्थ्य एवं उर्वरता) 
+				<img src="images/newIcon.gif" alt="Data Visualization"> </p>
+                  </div>
+				  
+				  <a href="https://soilhealth.dac.gov.in/slusi-visualisation/">
+						<img src="images/catchment.png" alt="Catchment" width="375" height="350" class="centerimg">
+					</a>
+				  
+			                    
+<div class="subtypeheading">
+                  वीडियो: भारत का डिजिटल माइक्रो वाटरशेड एटलस
+</div>
+                  <video oncontextmenu="return false;" style="display:block; margin: 0 auto;" width="600" height ="350" controls="controls" controlsList="nodownload">
+				  <p> <strong>वीडियो: भारत का डिजिटल माइक्रो वाटरशेड एटलस </strong> </p>
+  <source src="video/Digital_Micro_Watershed_Atlas.mp4" type="video/mp4">
+   Your browser does not support HTML5 video.
+</video>
+		<p class="paragraphJustify"> भारतीय मृदा एवं भू-उपयोग सर्वेक्षण (SLUSI) एकीकृत पोषक प्रबंधन (INM) प्रभाग, कृषि एवं किसान कल्याण विभाग, कृषि एवं किसान कल्याण मंत्रालय, भारत सरकार के अधीन है। संगठन का अधिदेश प्राकृतिक संसाधन प्रबंधन के लिए वाटरशेड आधारित मृदा एवं जल संरक्षण योजना के लिए उपयोगकर्ता विभागों को मृदा एवं भूमि की विशेषताओं पर विस्तृत वैज्ञानिक डेटाबेस प्रदान करना है।
+              
+         </p> 
+        						 
+        </div>
+                
+              <script type="text/javascript">
+
+/***********************************************
+* Conveyor belt slideshow script- © Dynamic Drive DHTML code library (www.dynamicdrive.com)
+* This notice MUST stay intact for legal use
+* Visit Dynamic Drive at http://www.dynamicdrive.com/ for full source code
+***********************************************/
+
+//Specify the slider's width (in pixels)
+var sliderwidth="660px"
+//Specify the slider's height
+var sliderheight="80px"
+//Specify the slider's slide speed (larger is faster 1-10)
+var slidespeed=3
+//configure background color:
+slidebgcolor="#EAEAEA"
+
+//Specify the slider's images
+var leftrightslide=new Array()
+var finalslide=''
+leftrightslide[0]='<a href="http://slusi.da.gov.in" target="_out"><img src="images/mainbanner1.gif" border=1></a>'
+leftrightslide[1]='<a href="rrs/rrs.html" target="content"><img src="images/rrs1.gif" border=1></a>'
+leftrightslide[2]='<a href="dss/dss.html" target="content"><img src="images/dss1.gif" border=1></a>'
+leftrightslide[3]='<a href="srm/Aboutsrm.html" target="content"><img src="images/srm1.gif" border=1></a>'
+leftrightslide[4]='<a href="ldm/aboutldm.html" target="content"><img src="images/ldm1.gif" border=1></a>'
+leftrightslide[6]='<a href="mwanew.html" target="content"><img src="images/micro.gif" border=1></a>'
+leftrightslide[7]='<a href="#" target="_out"><img src="images/reports.gif" border=1></a>'
+
+
+//Specify gap between each image (use HTML):
+var imagegap=""
+
+//Specify pixels gap between each slideshow rotation (use integer):
+var slideshowgap=3
+
+
+////NO NEED TO EDIT BELOW THIS LINE////////////
+
+var copyspeed=slidespeed
+leftrightslide='<nobr>'+leftrightslide.join(imagegap)+'</nobr>'
+var iedom=document.all||document.getElementById
+if (iedom)
+document.write('<span id="temp" style="visibility:hidden;position:absolute;top:-100px;left:-9000px">'+leftrightslide+'</span>')
+var actualwidth=''
+var cross_slide, ns_slide
+
+function fillup(){
+if (iedom){
+cross_slide=document.getElementById? document.getElementById("test2") : document.all.test2
+cross_slide2=document.getElementById? document.getElementById("test3") : document.all.test3
+cross_slide.innerHTML=cross_slide2.innerHTML=leftrightslide
+actualwidth=document.all? cross_slide.offsetWidth : document.getElementById("temp").offsetWidth
+cross_slide2.style.left=actualwidth+slideshowgap+"px"
+}
+else if (document.layers){
+ns_slide=document.ns_slidemenu.document.ns_slidemenu2
+ns_slide2=document.ns_slidemenu.document.ns_slidemenu3
+ns_slide.document.write(leftrightslide)
+ns_slide.document.close()
+actualwidth=ns_slide.document.width
+ns_slide2.left=actualwidth+slideshowgap
+ns_slide2.document.write(leftrightslide)
+ns_slide2.document.close()
+}
+lefttime=setInterval("slideleft()",30)
+}
+window.onload=fillup
+
+function slideleft(){
+if (iedom){
+if (parseInt(cross_slide.style.left)>(actualwidth*(-1)+8))
+cross_slide.style.left=parseInt(cross_slide.style.left)-copyspeed+"px"
+else
+cross_slide.style.left=parseInt(cross_slide2.style.left)+actualwidth+slideshowgap+"px"
+
+if (parseInt(cross_slide2.style.left)>(actualwidth*(-1)+8))
+cross_slide2.style.left=parseInt(cross_slide2.style.left)-copyspeed+"px"
+else
+cross_slide2.style.left=parseInt(cross_slide.style.left)+actualwidth+slideshowgap+"px"
+
+}
+else if (document.layers){
+if (ns_slide.left>(actualwidth*(-1)+8))
+ns_slide.left-=copyspeed
+else
+ns_slide.left=ns_slide2.left+actualwidth+slideshowgap
+
+if (ns_slide2.left>(actualwidth*(-1)+8))
+ns_slide2.left-=copyspeed
+else
+ns_slide2.left=ns_slide.left+actualwidth+slideshowgap
+}
+}
+
+
+if (iedom||document.layers){
+with (document){
+document.write('<table border="0" cellspacing="0" cellpadding="0"><td>')
+if (iedom){
+write('<div style="position:relative;width:'+sliderwidth+';height:'+sliderheight+';overflow:hidden">')
+write('<div style="position:absolute;width:'+sliderwidth+';height:'+sliderheight+';background-color:'+slidebgcolor+'" onMouseover="copyspeed=0" onMouseout="copyspeed=slidespeed">')
+write('<div id="test2" style="position:absolute;left:0px;top:0px"></div>')
+write('<div id="test3" style="position:absolute;left:-1000px;top:0px"></div>')
+write('</div></div>')
+}
+else if (document.layers){
+write('<ilayer width='+sliderwidth+' height='+sliderheight+' name="ns_slidemenu" bgColor='+slidebgcolor+'>')
+write('<layer name="ns_slidemenu2" left=0 top=0 onMouseover="copyspeed=0" onMouseout="copyspeed=slidespeed"></layer>')
+write('<layer name="ns_slidemenu3" left=0 top=0 onMouseover="copyspeed=0" onMouseout="copyspeed=slidespeed"></layer>')
+write('</ilayer>')
+}
+document.write('</td></table>')
+}
+}
+</script>            </div>
+          
+                  
+                </div>
+          
+         <div class="Wd25headingStyle" style="padding:0px; padding-left:2px">
+                               
+                    <div class="auto-style12" style="width: 97%">
+                     &nbsp;भारत का डिजिटल माइक्रो वाटरशेड एटलस </div>
+             <div class="auto-style9" style="text-align:justify; margin-bottom:5px; width: 91%;">
+                 <ul>
+
+<div >
+                                        
+                     <div onclick="location.href='mwanew.html';" style="cursor:pointer; background-color: #eaf1e3;
+                     min-height: 140px; margin-bottom:5px; width: 100%;border-bottom-right-radius:10px; border-bottom-left-radius:10px; font-size:1.3em; line-height:1.3em">    
+                    <div class='chart' style="text-indent:0px; padding:0px;border-top: 2px solid #1F674B;padding: 5px 13px 3px 5px; width: 97%;">
+                        <img src="images/mwa.jpg"  style="float:right;padding-right:0px;" width="130" height="164" />
+                     <span id="ContentPlaceHolder1_Area_Covered"><font color="blue">प्रयोजन: </font><br>  विशिष्ट स्थानिक सीमा एवं अद्वितीय राष्ट्रीय कोड के साथ देश के प्रत्येक माइक्रो वाटरशेड की पहचान एवं अभिज्ञान करना </font><BR><font color="green">मापक:</font>1:50,000&nbsp; 
+						<br>
+						</span></div>
+         
+                     </div>
+          </div>
+                         
+                           
+                                                   
+                        </ul>
+                   <div class="anchor" style="height: 20px">
+                    <a href="mwanew.html" class="more" target="_out" title="View More">अधिक विवरण देखें </a>
+                </div>
+                 </div>
+        <div class="clearfix"></div>
+              <div class="subtypeheading" style="width: 97%"> लिंक</div>
+                    <div class="Links"  style="min-height: 30px; width: 91%;">
+                        <div id="container"  style="height: 10%;text-align:justify;">
+                            <div id="content" style="height: 10%;">
+                             
+                              <div id="itemlist" style="margin-top: 0px;">
+                                  <div class="feed_item">
+                                <div class="feed_item_title" >
+                    <a href="Media.html" target="_blank" ><B>मीडिया</B>
+                     </a>
+                            </div>
+							 </div>
+								  <div class="feed_item">
+                                <div class="feed_item_title" >
+                    <a href="https://www.soilhealth.dac.gov.in" target="_blank" ><B>मृदा स्वास्थ्य कार्ड</B>
+                     </a>
+                            </div>
+							</div>
+							<div id="itemlist" style="margin-top: 0px;">
+                                  <div class="feed_item">
+                                <div class="feed_item_title" >
+                    <a href="annual_reports.html" target="_blank" ><B>वार्षिक प्रतिवेदन</B>
+                     </a>
+                            </div>
+                                        </div>
+
+                                   <div class="feed_item">
+                                <div class="feed_item_title" ><a href="Brochure.pdf" target="_blank"  >
+                               <B> विवरणिका </B>
+                                      </a></div>
+                                        </div>
+                                   <div class="feed_item">
+                                <div class="feed_item_title" ><a href="अवनि_धारा.pdf" target="_blank" >
+                                  <B>हिन्दी पत्रिका</B>
+                                      </a></div>
+                                        </div>
+										<div class="feed_item">
+                                <div class="feed_item_title" ><a href="UK_Compendium_SRM.pdf" target="_blank" >
+                                  <B>सतत भूमि प्रबंधन के लिए मृदा संसाधन सूचना संग्रह: उत्तराखंड</B>
+                                      </a></div>
+                                        </div>
+                                   <div class="feed_item">
+                                <div class="feed_item_title" ><a href="training.html" target="_blank" >
+                                  <B>योग्यता निर्माण</B>
+                                      </a></div>
+                                        </div>
+                       <div class="feed_item">
+                                <div class="feed_item_title" ><a href="Consultancy.html" target="_blank" > <B>परामर्शी सेवाएं</B></a></div>
+                                        </div>
+						                                        
+                       <div class="feed_item">
+                       <div class="feed_item_title" ><a href="Data_On_Backlog_Reserved_Vacancy_SLUSI.pdf" target="_blank" > <B>बैकलॉग आरक्षित रिक्तियों का विवरण</B></a></div>
+                                        </div>
+                                        
+										<div class="feed_item">
+                       <div class="feed_item_title" ><a href="sfm/sfm.html" target="_blank" > <B>मृदा उर्वरता मानचित्र (मृदा स्वास्थ्य कार्ड योजना के द्वितीय-चक्र डेटा पर आधारित) <img border="0" src="" widtd="30" height="14"></B></a></div>
+                                        </div>
+                                        </div>
+                                        <div class="feed_item">
+                       <div class="feed_item_title" ><a href="Mission_Life.pdf" target="_blank" > <B>"राष्ट्रीय अभियान : मिशन लाईफ" के अंतर्गत मृदा स्वास्थ्य प्रबंधन (पोषक तत्व उपयोग क्षमता और मृदा जैविक कार्बन प्रबंधन)पर भारतीय मृदा एवं भू-उपयोग सर्वेक्षण की रिपोर्ट <img border="0" src="" widtd="30" height="14"></B></a></div>
+                                        </div>
+										</div>
+                                        <div class="feed_item">
+                       <div class="feed_item_title" ><a href="Mission_Life.pdf" target="_blank" > <B></div>
+                                        <div class="feed_item">
+                       <div class="feed_item_title" ><a href="Morena_Preliminary_Report.pdf" target="_blank" > <B>तिलहन फार्म मुरैना की स्थापना हेतु सीमांकन एवं प्रारंभिक मृदा सर्वेक्षण रिपोर्ट<img border="0" src="" widtd="30" height="14"></B></a></div>
+                                        </div>
+										</div>
+                                        <div class="feed_item">
+                       <div class="feed_item_title" ><a href="Partner Institutes for Participation in NSMP.pdf" target="_blank" > <B>राष्ट्रीय मृदा मानचित्रण कार्यक्रम में भागीदारी के लिए भागीदार संस्थानों की पहचान 1:10,000 मापक <img border="0" src="" widtd="30" height="14"></B></a></div>
+                                        </div>
+									    <div class="feed_item">
+                                <div class="subtypeheading"> <B><a href="#" target="_blank" > 
+									<span class="auto-style5"> कर्मचारियों के लिए </span></a> </div>
+                                        </div>
+                                    <div class="feed_item">
+                                <div class="feed_item_title" > <B>
+									<a href="rr_rules/rr_rules.html" target="_out"> नियुक्ति नियम
+									</a> </div>
+                                        </div>
+										<div class="feed_item">
+                                <div class="feed_item_title" > <B>
+									<a href="Proposed_amendment_in_RR_ to_the_post_of_Assistant_Soil_Chemist.pdf" target="_out"> सहायक मृदा रसायनज्ञ के पद पर भर्ती नियमों में प्रस्तावित संशोधन
+									</a> </div>
+                                        </div>
+						<div class="feed_item">
+                                <div class="feed_item_title" > <B>
+									<a href="Proposed_Amendments_Revision_in_RR_of_SSO_in_SLUSI_2022.pdf" target="_out"> मृदा सर्वेक्षण अधिकारी भर्ती नियमों के लिए हितधारकों से टिप्पणियां आमंत्रित
+									</a> </div>
+                                        </div>		
+                       <div class="feed_item">
+                                <div class="feed_item_title" > <B>
+									<a href="RTP2018.pdf" target="_blank"> स्थानांतरण एवं तैनाती दिशानिर्देश </a> </div>
+                                        </div>
+                                 <div class="feed_item">
+                                <div class="feed_item_title" > <B>
+									<a href="seniority_list/seniority_list.htm" target="_out"> वरिष्ठता सूची
+									</a> </div>
+									</div>
+                                    <div class="feed_item">
+                                <div class="feed_item_title" ><a href="https://pledge.cvc.nic.in/" target="_blank" > <B> अखंडता की प्रतिज्ञा</a> </div>
+                                        </div>
+									
+
+                               <!--#itemlist-->
+
+                            </div><!--#content and #flexcroll-->
+                        
+                            </div>
+                        
+                    </div>
+                    
+                </div>
+                
+                
+<div align="center"> </div>
+            
+            <!--right panel end here -->
+            
+      </div>
+
+    <div class="clearboth"></div>
+   </div>
+    
+
+
+             <div class="clearfix"> </div>
+        
+          </div>
+   
+	  
+	  
+	  <div id="footerPanel" >
+                          
+        <div class="footerStrip" >
+            
+            <ul  class="footerMenu">
+                
+				<li class="first"><b><a href="srm/Aboutsrm.html" title="SRM">मृदा संसाधन मानचित्रण(SRM)</a></b></li>
+				<li><b><a href="dss/aboutdss.html" title="DSS">विस्तृत मृदा सर्वेक्षण(DSS)</a></b></li>
+				<li><b><a href="rrs/aboutrrs.html" title="RRS">तीव्र प्राथमिक सर्वेक्षण(RRS)</a></b></li>
+						<li><b><a href="mwanew.html" title="MWAI">भारत का डिजिटल माइक्रो वाटरशेड एटलस</a></b></li>
+				<li><b><a href="https://agriwelfare.gov.in/" title="Min. of Agri&FW"> कृषि एवं किसान कल्याण मंत्रालय</a></b></li>
+								<li>						
+			<a href="https://www.india.gov.in/" target="_out"><img src="images/nationalportal.gif" border=1></a></span></li>
+				
+               
+               
+            </ul>
+            
+			
+			
+			
+        </div>
+                      <div class="clearfix"> </div>
+        <div id="footer" style="margin-bottom:0; background-color:#eaf1e3">
+            <div style="margin-bottom:0;">
+                <p>
+                   <b>   इस प्रकरण को भारतीय मृदा एवं भू-उपयोग सर्वेक्षण (SLUSI), कृषि एवं किसान कल्याण विभाग, कृषि एवं किसान कल्याण मंत्रालय, भारत सरकार द्वारा प्रकाशित और प्रबंधित किया जाता है और NIC द्वारा इसकी मेजबानी की जाती है।..</b>
+                </p>
+                <p>
+                   <b style="color:#1300be;"> किसी भी प्रश्न एवं सुझाव के लिए कृपया लिखें
+                    <span id="lblsupportemail" style="color:#ba0505;font-size:12px;font-weight:bold;">csso-slusi[at]nic[dot]in</span></b>
+					
+
+                </p>
+				<p>©2024 भारतीय मृदा एवं भू-उपयोग सर्वेक्षण (SLUSI)</p> <span id="LastUpdateDate">
+				पिछला अद्यतन: 27-01-2026 &nbsp&nbsp&nbsp&nbsp&nbsp<b>आगंतुक पटल:</b>
+					<img src='https://www.counter12.com/img-WZw1233WBYB32cYB-48.gif' border='0' alt='counter'><script type='text/javascript' src='https://www.counter12.com/ad.js?id=WZw1233WBYB32cYB'></script>				
+						
+</P>
+
+
+
+            </div>
+        </div>
+    </div>
+
+	  
+	  
+	  
+	 
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+    </form>
+ 
+</body>
+</html>
