@@ -1,0 +1,27 @@
+# Compiled Dataset Rerun Analysis
+
+## Data compilation audit
+
+item,value
+current_master_rows,2213
+current_master_zenodo_rows,560
+external_zenodo_UCS_rows,397
+external_zenodo_CBR_rows,163
+datagov_context_rows,35
+rows_with_datagov_context_match,178
+
+## Summary metrics
+
+response,feature_set,model,R2_mean,R2_std,RMSE_mean,RMSE_std,MAE_mean,MAE_std
+CBR,base,ExtraTrees,-0.21020366898682216,0.16914704254751567,15.310791303044814,3.4144583129477284,12.12561289461747,2.834212613312673
+CBR,base,HGB,-0.08974097493044964,0.12879053114037783,14.736399879906863,4.522957474196208,11.76887370963278,3.4386798028495087
+CBR,base_plus_datagov_context,ExtraTrees,-0.20129173489641672,0.20291381996989794,15.26521532993322,3.5948922817008806,12.120678754902315,2.882259383464845
+CBR,base_plus_datagov_context,HGB,-0.08604145947986135,0.1369378066385125,14.713738922231476,4.550832702622875,11.744306430191735,3.464680306247465
+UCS,base,ExtraTrees,0.05759991293565623,0.12728273983934643,2065.218061725668,1395.3693964748636,1381.9457033411668,859.2882319157014
+UCS,base,HGB,-0.11145392004489174,0.3188915650788421,2183.4819922023817,1419.3067979566106,1515.055198412915,920.5504827520044
+UCS,base_plus_datagov_context,ExtraTrees,0.05993088552607602,0.05107374249513763,2065.3520172261487,1388.66240317856,1380.078323593577,856.4988058715337
+UCS,base_plus_datagov_context,HGB,-0.04548673317112299,0.27606389701314143,2139.6153062576964,1435.1754742542848,1485.9117001739307,923.2412456526364
+
+## Interpretation
+
+The external Zenodo UCS/CBR data are already present in the master compiled dataset, so duplicate-safe compilation does not increase the mechanical test row count. The only newly recovered tabular source is Data.gov.in Soil Health Card context, which provides State/UT-level organic-carbon and nutrient information. This context should be interpreted cautiously because it is regional agricultural soil-health information, not specimen-level geotechnical laboratory chemistry. Any improvement or degradation after adding these variables therefore indicates whether coarse regional context helps source transfer, not whether mechanical measurements have improved.
