@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import json
 import math
+import os
 import shutil
 from pathlib import Path
 
@@ -262,6 +263,7 @@ def add_v8_text(doc: Document, carbon: pd.DataFrame, weighting: pd.DataFrame) ->
         "The carbon screening was also tested under a simple dynamic sensitivity setting rather than a single cradle-to-gate value. "
         "Binder-related emission factors were scaled by -20%, baseline and +20%, and transport distances of 0, 100 and 300 km were added using a screening factor of 0.062 kg CO2e per tonne-km. "
         "This calculation is not intended to replace a project-specific life-cycle assessment, but it shows whether the Pareto ordering remains stable when regional logistics and supply-chain uncertainty are introduced. "
+        "The scenario summary is reported in Table 12. "
         "The most carbon-efficient mixtures were more sensitive to transport distance when the absolute binder dosage was low, whereas high-binder mixtures became less attractive under the +20% production-emission scenario. "
         "Thus, the Pareto analysis should be read as a carbon-aware pre-screening tool whose final ranking must be recalculated for the actual source-to-site distance and local binder supply route.",
     )
@@ -292,6 +294,7 @@ def add_v8_text(doc: Document, carbon: pd.DataFrame, weighting: pd.DataFrame) ->
         discussion_anchor,
         "A second diagnostic test examined whether the transfer loss could be reduced by giving each source a more equal influence during training. "
         "Inverse-source weighting was used as a deliberately simple domain-adaptation baseline: observations from small sources received larger sample weights, whereas observations from large sources received smaller weights. "
+        "Table 13 reports the resulting grouped-source comparison. "
         "The test did not remove the grouped-source penalty, but it is useful because it separates a correctable sampling-imbalance effect from the deeper unmeasured-chemistry effect discussed below. "
         "Where source weighting improved balanced accuracy, the gain was interpreted only as evidence that source imbalance contributes to the transfer problem; where it did not improve performance, the result supports the need for richer soil descriptors rather than more complex black-box learners.",
     )
@@ -411,7 +414,14 @@ def main() -> None:
     # Copy repo package forward and add new analysis files to results for reviewer traceability.
     repo_out = OUTDIR / "source-aware-stabilized-soil-ml-v8"
     if repo_out.exists():
-        shutil.rmtree(repo_out)
+        def _remove_readonly(func, path, exc_info):
+            try:
+                os.chmod(path, 0o700)
+                func(path)
+            except Exception:
+                raise
+
+        shutil.rmtree(repo_out, onerror=_remove_readonly)
     shutil.copytree(REPO, repo_out)
     (repo_out / "results").mkdir(exist_ok=True)
     shutil.copy2(OUTDIR / "dynamic_carbon_sensitivity_v8.csv", repo_out / "results" / "dynamic_carbon_sensitivity_v8.csv")
