@@ -1,0 +1,6 @@
+source,result,recommended_next_step
+NGDR,metadata page downloaded; raw data report download requires portal workflow/login,Use manual portal account/API workflow for selected layers; cite only metadata until raw files are obtained.
+GSI Bhukosh,catalog/public portal metadata downloaded; raw layer export not exposed in static HTML,Use Bhukosh map service/OGC endpoint manually for selected geochemical/geology layers.
+ISRO Bhuvan,"open data archive and service listing downloaded; many products are interactive, OGC-only, or login/on-demand",Use Bhuvan download UI or OGC service details for slope/salt-affected/waterlogging layers.
+SLUSI,portal metadata downloaded; DSS/SRM bulk files not exposed through static page,Manually download district reports/maps if available or request data through SLUSI.
+CRRI,institutional portal metadata downloaded; raw laboratory stabilization datasets not bulk public,"Use CRRI publications/manuals only when tables are extractable and cite as literature, not repository data."

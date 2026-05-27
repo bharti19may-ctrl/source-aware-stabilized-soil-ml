@@ -1,0 +1,144 @@
+{
+  "created": "2026-03-27T22:55:54.849961+00:00",
+  "modified": "2026-03-27T22:55:55.136915+00:00",
+  "id": 19242690,
+  "conceptrecid": "19242689",
+  "doi": "10.5281/zenodo.19242690",
+  "conceptdoi": "10.5281/zenodo.19242689",
+  "doi_url": "https://doi.org/10.5281/zenodo.19242690",
+  "metadata": {
+    "title": "Dataset of UCS and CBR Results for Biopolymer-Stabilised Soils from Multi-Additive Experimental Studies",
+    "doi": "10.5281/zenodo.19242690",
+    "publication_date": "2026-03-26",
+    "description": "<p>This dataset compiles experimentally derived unconfined compressive strength (UCS) and California Bearing Ratio (CBR) results for stabilised soils, with a particular focus on biopolymer-based and multi-additive stabilisation systems. The dataset is curated from 20 peer-reviewed studies and contains a total of 560 records, including 397 UCS observations and 163 CBR observations.</p>\n<p>Each record corresponds to a unique experimental condition defined by soil type, stabiliser composition, compaction characteristics, curing duration, and testing conditions. The dataset preserves both treated and untreated (or single-additive) cases within each study to enable consistent within-study comparisons.</p>\n<p>The data have been systematically extracted from published tables, text, and supplementary materials. Where necessary, values were digitised from figures, and such cases are transparently documented. All variables have been harmonised to consistent units and formats across studies, while original terminologies have been retained through controlled vocabularies.</p>\n<p>The dataset is structured into multiple machine-readable tables, including:</p>\n<ul>\n<li>UCS_clean: cleaned UCS records</li>\n<li>CBR_clean: cleaned CBR records</li>\n<li>StudyInventory: study-level metadata</li>\n<li>DataDictionary: variable definitions and units</li>\n<li>VocabularyMap: standardised naming conventions</li>\n<li>QC_Log: quality control actions and flags</li>\n</ul>\n<p>Quality control procedures include range checks, plausibility assessment, internal consistency verification, and detection of transcription or formatting errors. All edits, flags, and inferred values are explicitly recorded to ensure transparency and traceability.</p>\n<p>The dataset supports a wide range of applications, including comparative analysis, benchmarking of stabilisation methods, meta-analysis, and data-driven modelling such as machine learning. Users are encouraged to subset the data based on outcome type, curing duration, soil classification, and stabiliser type to ensure meaningful interpretation.</p>\n<p>Each record is uniquely identified and linked to its source through study identifiers and source DOIs, ensuring full traceability to the original publications.</p>",
+    "access_right": "open",
+    "creators": [
+      {
+        "name": "Abolfazl, Baghbani",
+        "affiliation": null,
+        "orcid": "0000-0001-9151-4469"
+      },
+      {
+        "name": "Delaram, Bahrampour",
+        "affiliation": null
+      },
+      {
+        "name": "Ahmad, Moballegh",
+        "affiliation": null
+      },
+      {
+        "name": "Firas, Daghistani",
+        "affiliation": null
+      }
+    ],
+    "references": [
+      "Anshu, A.K. and Tamut, Y., 2021, October. Soil Stabilization with Guar Gum and Fly Ash. In Indian Young Geotechnical Engineers Conference (pp. 231-239). Singapore: Springer Nature Singapore.",
+      "Onah, H.N., Nwonu, D.C. and Ikeagwuani, C.C., 2022. Feasibility of lime and biopolymer treatment for soft clay improvement: a comparative and complementary approach. Arabian Journal of Geosciences, 15(4), p.337.",
+      "Bruno, A.W., Lalicata, L.M., Abdallah, R., Lagazzo, A., Arris-Roucan, S., McGregor, F., Perlot, C. and Gallipoli, D., 2024. Synergic effect of hydrated lime and guar gum stabilisation on the mechanical, thermal and hygroscopic behaviour of a Ligurian earth ma-terial. Construction and Building Materials, 439, p.137258.",
+      "Arasan, S., Bagherinia, M., Akbulut, R.K. and Zaimoglu, A.S., 2017. Utilization of polymers to improve soft clayey soils using the deep mixing method. Journal of Environmental & Engineering Geoscience, 23(1), pp.1-12.",
+      "Arabani, M., Shalchian, M.M. and Haghsheno, H., 2025. The impact of guar gum biopolymer on mechanical characteristics of soil reinforced with palm fiber. Bulletin of Engineering Geology and the Environment, 84(1), p.30.",
+      "Sanniyah, S.S., Sihombing, A.V.R., Mase, L.Z., Susanto, A., Somantri, A.K. and Krisologus, Y.P., 2024. Experimental evaluation of nano-material and biopolymer additives on expansive subgrade soil for pavement applications. Transportation Infrastructure Ge-otechnology, 11(6), pp.3753-3782",
+      "Bozyigit, I., 2025. Strength properties of clay treated with fiber and biopolymer subject to Freeze\u2013Thaw conditions. Journal of Ma-terials in Civil Engineering, 37(5), p.04025090.",
+      "Li, X., He, J., Min, F. and Ji, J., 2025. Durability and microstructure of guar gum/chitosan-cement modified slurry for flowable fill. Marine Georesources & Geotechnology, pp.1-18.",
+      "Zeng, L., Yu, H.C., Wang, W.G., Xue, C.W., Wen, W., Gao, Q.F., Bian, H.B., Luo, J.T., Song, J.P. and Li, Y.J., 2025. Strength Properties and Evaluation Method of Composite Modified Carbonaceous Mudstone Soil-rock Mixtures. Periodica Polytechnica Civil Engi-neering, 69(4), pp.1063-1077.",
+      "Krishnan, J., Lekshmi, S.G., Manu, S., Raj, A.R. and Devika, N., 2025. Impact of Dry\u2013Wet Cycles on Mechanical Properties and Surface Cracking of Biopolymer-Lime-Stabilised Clay. Indian Geotechnical Journal, pp.1-19.",
+      "Azimi, M., Mirzababaei, M., Soltani, A. and Jaksa, M.B., 2025. Reducing Lime Consumption Demand for Stabilizing High Plasticity Clay Using Xanthan Gum. International Journal of Geosynthetics and Ground Engineering, 11(4), p.42.",
+      "Kang, X., Bate, B., Chen, R.P., Yang, W. and Wang, F., 2019. Physicochemical and mechanical properties of polymer-amended kaolinite and fly ash\u2013kaolinite mixtures. Journal of Materials in Civil Engineering, 31(6), p.04019064.",
+      "Chamberlin, K.S., Rao, M.R. and Suresh, K., 2023. Impact of rice husk ash and xanthan gum in road works by improving the characteristics of expansive soil (black cotton soil)\u2013an inclusive study. In E3S Web of Conferences (Vol. 391, p. 01004). EDP Sciences.",
+      "Arabani, M., Ahmadi, S.F., Mansourkiaei, Y., Shalchian, M.M., Payan, M. and Ranjbar, P.Z., 2025. Enhancing mechanical properties and freeze-thaw durability of xanthan-stabilized kaolinite clay with randomly distributed animal-based fibers. Carbohydrate pol-ymer technologies and applications, p.100975.",
+      "Chen, J., Huang, Y., Chen, A., Ji, X., Liao, X., Li, S. and Xiao, Y., 2025. Strength and Micro-Mechanism of Guar Gum\u2013Palm Fiber Composite for Improvement of Expansive Soil. Fibers, 13(8), p.104.",
+      "Lekha, B.M., Sarang, G. and Shankar, A.R., 2015. Effect of electrolyte lignin and fly ash in stabilizing black cotton soil. Transportation Infrastructure Geotechnology, 2(2), pp.87-101.",
+      "Zhang, Y., Zhang, W., Shi, X., Guo, T. and Chen, Z., 2021. Experimental study on unconfined compressive strength of expansive soil improved by lignin and cement. In E3S Web of Conferences (Vol. 236, p. 02010). EDP Sciences.",
+      "G\u00fccek, S., G\u00fcrer, C., \u017dlender, B., Taciro\u011flu, M.V., Korkmaz, B.E., G\u00fcrkan, K., Bra\u010dko, T., Macuh, B., Varga, R. and Jelu\u0161i\u010d, P., 2024. Use of lignin, waste tire rubber, and waste glass for soil stabilization. Applied Sciences, 14(17), p.7532.",
+      "Sun, Y., Yu, F., Yang, Y., Li, C., Xue, S. and Huang, J., 2024. Mechanical and Freeze-Thaw Characterization of Lignin-BFS (GGBS)-Modified Silty Clays. Buildings, 15(1), p.38.",
+      "Zaid, W., 2024. Improving the Geotechnical Properties of a Soil Using Xanthan Gum and Concrete Waste (Master's thesis, Gaziantep University)."
+    ],
+    "resource_type": {
+      "title": "Dataset",
+      "type": "dataset"
+    },
+    "license": {
+      "id": "cc-by-4.0"
+    },
+    "relations": {
+      "version": [
+        {
+          "index": 0,
+          "is_last": true,
+          "parent": {
+            "pid_type": "recid",
+            "pid_value": "19242689"
+          }
+        }
+      ]
+    }
+  },
+  "title": "Dataset of UCS and CBR Results for Biopolymer-Stabilised Soils from Multi-Additive Experimental Studies",
+  "links": {
+    "self": "https://zenodo.org/api/records/19242690",
+    "self_html": "https://zenodo.org/records/19242690",
+    "preview_html": "https://zenodo.org/records/19242690?preview=1",
+    "doi": "https://doi.org/10.5281/zenodo.19242690",
+    "self_doi": "https://doi.org/10.5281/zenodo.19242690",
+    "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.19242690",
+    "reserve_doi": "https://zenodo.org/api/records/19242690/draft/pids/doi",
+    "parent": "https://zenodo.org/api/records/19242689",
+    "parent_html": "https://zenodo.org/records/19242689",
+    "parent_doi": "https://doi.org/10.5281/zenodo.19242689",
+    "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.19242689",
+    "self_iiif_manifest": "https://zenodo.org/api/iiif/record:19242690/manifest",
+    "self_iiif_sequence": "https://zenodo.org/api/iiif/record:19242690/sequence/default",
+    "files": "https://zenodo.org/api/records/19242690/files",
+    "media_files": "https://zenodo.org/api/records/19242690/media-files",
+    "archive": "https://zenodo.org/api/records/19242690/files-archive",
+    "archive_media": "https://zenodo.org/api/records/19242690/media-files-archive",
+    "latest": "https://zenodo.org/api/records/19242690/versions/latest",
+    "latest_html": "https://zenodo.org/records/19242690/latest",
+    "versions": "https://zenodo.org/api/records/19242690/versions",
+    "draft": "https://zenodo.org/api/records/19242690/draft",
+    "access_links": "https://zenodo.org/api/records/19242690/access/links",
+    "access_grants": "https://zenodo.org/api/records/19242690/access/grants",
+    "access_users": "https://zenodo.org/api/records/19242690/access/users",
+    "access_request": "https://zenodo.org/api/records/19242690/access/request",
+    "access": "https://zenodo.org/api/records/19242690/access",
+    "communities": "https://zenodo.org/api/records/19242690/communities",
+    "communities-suggestions": "https://zenodo.org/api/records/19242690/communities-suggestions",
+    "request_deletion": "https://zenodo.org/api/records/19242690/request-deletion",
+    "file_modification": "https://zenodo.org/api/records/19242690/file-modification",
+    "quota_increase": "https://zenodo.org/api/records/19242690/quota-increase",
+    "requests": "https://zenodo.org/api/records/19242690/requests"
+  },
+  "updated": "2026-03-27T22:55:55.136915+00:00",
+  "recid": "19242690",
+  "revision": 4,
+  "files": [
+    {
+      "id": "a136fa5d-57da-4e04-838d-bdf6d6e5ac2b",
+      "key": "Organized data (journal ready).xlsx",
+      "size": 154985,
+      "checksum": "md5:9eb439cddea98533e553f3e81f0d4cfa",
+      "links": {
+        "self": "https://zenodo.org/api/records/19242690/files/Organized%20data%20(journal%20ready).xlsx/content"
+      }
+    }
+  ],
+  "swh": {},
+  "owners": [
+    {
+      "id": "1588648"
+    }
+  ],
+  "status": "published",
+  "stats": {
+    "downloads": 23,
+    "unique_downloads": 12,
+    "views": 72,
+    "unique_views": 65,
+    "version_downloads": 23,
+    "version_unique_downloads": 12,
+    "version_unique_views": 65,
+    "version_views": 72
+  },
+  "state": "done",
+  "submitted": true
+}
