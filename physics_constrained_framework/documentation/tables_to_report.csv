@@ -1,0 +1,11 @@
+table_id,recommended_caption
+Table 1,"Dataset structure, selected target, source count, and missing variables"
+Table 2,Data-quality checks and physically impossible records
+Table 3,Engineered geotechnical variables and equations
+Table 4,Monotonic constraints used in the physics-constrained model
+Table 5,Grouped-source validation metrics reported as mean ± standard deviation
+Table 6,Fold-wise external-source validation results
+Table 7,Physical consistency violation rates for unconstrained and constrained models
+Table 8,A1-A3 embodied-carbon emission factors and sensitivity multipliers
+Table 9,Embodied-carbon summary for 1 m³ compacted stabilized soil
+Table 10,SHAP or permutation-importance feature ranking

@@ -1,0 +1,7 @@
+item,value
+rows_loaded,2213
+columns_loaded,50
+selected_target,UCS_kPa
+physically_flagged_rows,0
+column_mappings_applied,"{""source_dataset"": ""Source"", ""ucs_kpa"": ""UCS_kPa"", ""cbr_pct"": ""CBR"", ""clay_pct"": ""Clay_Fraction"", ""pi_pct"": ""Plasticity_Index"", ""omc_pct"": ""OMC"", ""mdd_gcm3"": ""MDD"", ""water_content_pct"": ""Water_Content"", ""curing_days"": ""Curing_Days"", ""cement_pct"": ""Cement_Content"", ""lime_pct"": ""Lime_Content"", ""fly_ash_pct"": ""Fly_Ash_Content"", ""ggbs_pct"": ""GGBS_Content""}"
+missing_required_features,"Binder_Content, SiO2, Al2O3, CaO"

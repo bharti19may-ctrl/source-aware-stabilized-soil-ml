@@ -1,0 +1,13 @@
+item,status
+Column mapping and missing-variable reporting,completed
+Physically impossible value detection,completed
+Feature engineering equations,completed
+Leakage-safe imputation/scaling inside folds,completed
+Grouped-source validation,completed where Source exists
+Physics-constrained monotonic model,completed
+Physical violation test,completed
+Cradle-to-gate carbon sensitivity,completed with placeholder factors
+SHAP explainability,fallback used because SHAP is not installed
+Permutation importance fallback,completed
+Saved trained model,completed
+README and requirements,completed

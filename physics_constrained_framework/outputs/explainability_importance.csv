@@ -1,0 +1,16 @@
+feature,importance_mean,importance_std,method
+GGBS_Content,1.7596159096420514,0.1069919589418286,permutation_importance
+Plasticity_Index,0.4281761641829104,0.04710134110253708,permutation_importance
+Water_Content,0.24284465262219243,0.017761502941579223,permutation_importance
+Curing_Days,0.09161844981185739,0.008813151723920682,permutation_importance
+Clay_Fraction,0.06679897545933611,0.004493913888738078,permutation_importance
+Cement_Content,0.055465616414909616,0.0026080088069770618,permutation_importance
+MDD,0.03782733891528463,0.001754259580800551,permutation_importance
+Fly_Ash_Content,0.025334219783039718,0.002412491465083459,permutation_importance
+OMC,0.008202491516436716,0.0007135668353781038,permutation_importance
+Binder_Clay_Ratio,0.006930954870149747,0.0004554328340760746,permutation_importance
+A_clay,0.006239527224290009,0.0005280825477864407,permutation_importance
+Binder_Total,0.006050065210877415,0.00046869516274330775,permutation_importance
+Lime_Content,0.002199299747049366,0.00030955944856515783,permutation_importance
+Delta_w,1.793513632922239e-05,2.235856633330175e-05,permutation_importance
+log_curing,0.0,0.0,permutation_importance
