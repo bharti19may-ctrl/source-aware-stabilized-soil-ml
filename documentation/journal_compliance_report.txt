@@ -1,0 +1,10 @@
+﻿ICE Ground Improvement conversion report
+Title: Source-aware machine learning for stabilised expansive soils
+Title character count including spaces: 60
+Official guidance checked: Emerald Ground Improvement author guidelines.
+Applied: title shortened below 90 characters and acronyms removed from the title.
+Applied: main text converted to UK English preference for 's' spellings.
+Applied: running-text carbon dioxide shorthand replaced with carbon dioxide/carbon dioxide equivalent wording where applicable.
+Applied: numbered procedural sequences converted to bullet points.
+Applied: non-required Highlights section moved to supplementary support file.
+Removed highlights captured: True

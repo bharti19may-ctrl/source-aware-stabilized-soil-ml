@@ -1,19 +1,20 @@
-# Source-aware stabilized soil ML dataset and analysis
+﻿# Source-aware machine learning for stabilised expansive soils
 
-This repository accompanies the manuscript:
+This private repository contains the materials needed to support peer review of the manuscript submitted to *Proceedings of the Institution of Civil Engineers - Ground Improvement*.
 
-**Source-aware machine learning for stabilized expansive soils: transfer validation, decision screening and carbon-efficient mixture ranking**
+## Repository contents
 
-## Contents
+- `manuscript/` - final manuscript, PDF check copy and supplementary material.
+- `data/` - cleaned modelling dataset and analysis-summary tables used in the manuscript.
+- `figures/` - publication figures exported as high-resolution PNG files.
+- `documentation/` - audit notes for citation checks, journal-format checks and figure/data packaging.
 
-- `data/`: cleaned real UCS and CBR datasets, combined dataset, source inventory and dataset summary.
-- `results/`: classification, ranking and Pareto-screening output tables.
-- `scripts/`: Python scripts used to regenerate the main analyses and manuscript-supporting outputs.
+The repository is private and is intended only for editor or reviewer access when requested.
 
-## Reproducibility
+## Reproducibility note
 
-The analysis uses Python, pandas, NumPy, scikit-learn and Matplotlib. Main random seeds are fixed at 42 or explicitly stated in the scripts. Synthetic auxiliary rows are not part of the real experimental dataset and are generated only inside training folds.
+The dataset is compiled from traceable published sources and contextual open data used as negative-control descriptors. Synthetic records, where discussed in the manuscript, are training-only auxiliary records and are not treated as experimental observations.
 
-## Data-use note
+## Citation
 
-The datasets are literature-derived and harmonised for research use. Users should verify original source papers before using values for design.
+Please cite the manuscript associated with this repository. Bibliographic details can be updated after acceptance.

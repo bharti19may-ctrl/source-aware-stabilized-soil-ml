@@ -1,5 +1,0 @@
-source,file,use_in_study,response,status
-Zenodo 10.5281/zenodo.19242690,zenodo_19242690_UCS_clean.csv,Direct model rows after duplicate check,UCS,usable laboratory data
-Zenodo 10.5281/zenodo.19242690,zenodo_19242690_CBR_clean.csv,Direct model rows after duplicate check,CBR,usable laboratory data
-Data.gov.in Soil Health Card organic carbon,metadata/data_gov_in_soil_health_card_organic_carbon_resource.html,Regional soil fertility/organic carbon context only; not UCS/CBR training,context,metadata downloaded; CSV/API not usable in automated run
-GSI Bhukosh / NGDR / Bhuvan / SLUSI / CRRI,metadata/*.html and blocked_or_manual_sources.csv,Data-availability and future mineralogical/geospatial enrichment discussion,context,metadata/manual access route only

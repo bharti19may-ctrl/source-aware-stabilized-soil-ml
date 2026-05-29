@@ -1,5 +1,7 @@
+﻿python-docx
 pandas
 numpy
 scikit-learn
 matplotlib
-python-docx
+Pillow
+joblib
