@@ -1,12 +1,13 @@
 ﻿# Source-aware machine learning for stabilised expansive soils
 
-This repository contains the data, figures and manuscript files associated with the study.
+This repository contains supporting data and figures associated with the study.
 
 ## Contents
 
-- `manuscript/` - manuscript file, PDF copy and supplementary material.
 - `data/` - cleaned modelling dataset and validation tables.
-- `figures/` - manuscript figures exported as high-resolution PNG files.
+- `figures/` - study figures exported as high-resolution PNG files.
+
+The repository is intended to support data transparency during editorial or peer review. The manuscript text is not stored here.
 
 ## Data note
 
