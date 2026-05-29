@@ -1,10 +1,8 @@
-﻿# Data folder
+﻿# Data
 
-This folder contains the cleaned dataset and supporting analysis tables used in the manuscript.
+This folder contains the cleaned dataset and validation tables used in the study.
 
-- `modelling_dataset.csv` is the master modelling table.
-- `model_comparison_summary.csv` and `foldwise_validation_metrics.csv` summarise model-performance comparisons.
-- `data_audit.csv` records dataset assembly checks.
-- `model_validation_summary.md` summarises the validation outcomes used in the manuscript.
-
-Regional context variables are retained as negative-control descriptors and are not substitutes for specimen-level geotechnical, mineralogical, chemical, compaction or mechanical measurements.
+- `modelling_dataset.csv` - master modelling table.
+- `model_comparison_summary.csv` - model-level comparison metrics.
+- `foldwise_validation_metrics.csv` - fold-level validation metrics.
+- `data_checks.csv` - data assembly checks.

@@ -1,1 +1,0 @@
-﻿This folder contains the cleaned dataset and analysis-summary tables used in the manuscript. The master modelling table is `modelling_dataset.csv`. Regional context variables are retained as negative-control descriptors and should not be interpreted as substitutes for specimen-level mineralogical, chemical, compaction or mechanical measurements.
